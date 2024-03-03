@@ -1,7 +1,7 @@
 import { NgFor } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
-import { PokeService } from '@core/services/poke.service';
+import { PokedexService } from '@core/services/pokedex.service';
 import { PokeItemComponent } from '@modules/poke-item/poke-item.component';
 
 @Component({
@@ -10,7 +10,7 @@ import { PokeItemComponent } from '@modules/poke-item/poke-item.component';
     imports: [NgFor, PokeItemComponent],
     templateUrl: './pokedex.component.html',
     styleUrl: './pokedex.component.scss',
-    providers: [PokeService],
+    providers: [PokedexService],
 })
 export class PokedexComponent implements OnInit {
     pokemonData = [];
@@ -18,10 +18,10 @@ export class PokedexComponent implements OnInit {
     limit = 12;
     offset = 0;
 
-    constructor(private pokeService: PokeService) {}
+    constructor(private pokedexService: PokedexService) {}
 
     loadData(): void {
-        this.pokeService.getListPoke().subscribe((data: any) => {
+        this.pokedexService.getListPoke().subscribe((data: any) => {
             this.pokemonData = getDistinctDataById(data);
             this.pokemons = this.pokemonData.slice(this.offset, this.offset + this.limit);
             this.offset += this.limit;

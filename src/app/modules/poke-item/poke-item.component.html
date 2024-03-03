@@ -1,5 +1,7 @@
 <div class="mx-1.5 mb-12">
-    <a routerLink="/pokemon" class="image-link"> <img [src]="pokemon.ThumbnailImage" alt="" /> </a>
+    <a [routerLink]="pokemon.id.toString()" class="image-link">
+        <img [src]="pokemon.ThumbnailImage" alt="" />
+    </a>
     <div class="poke-info">
         <p class="poke-id"><span class="number-prefix">#</span>{{ pokemon.number }}</p>
         <h5 class="poke-name">{{ pokemon.name }}</h5>

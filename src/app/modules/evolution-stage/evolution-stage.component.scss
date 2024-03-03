@@ -1,0 +1,32 @@
+:host {
+    user-select: none;
+}
+
+.image-link {
+    display: block;
+    border-radius: 5px;
+}
+
+.poke-image {
+    box-shadow: 0 4px 4px 0px #212121;
+    background-color: #616161;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+    width: 100%;
+}
+
+.pokemon-title {
+    font-family: 'Flexo-Medium', arial, sans-serif;
+    color: #fff;
+    font-size: 125%;
+    margin-top: 0.5em;
+    text-align: center;
+    width: 100%;
+    .pokemon-number {
+        font-family: 'Flexo-Regular', arial, sans-serif;
+        color: #a4acaf;
+    }
+}

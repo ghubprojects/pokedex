@@ -7,7 +7,7 @@ export const routes: Routes = [
         component: PokedexComponent,
     },
     {
-        path: 'pokedex/pokemon',
+        path: 'pokedex/:id',
         component: PokemonComponent,
     },
     { path: '', redirectTo: '/pokedex', pathMatch: 'full' },
