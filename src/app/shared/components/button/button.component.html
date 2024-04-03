@@ -1,0 +1,8 @@
+<button
+    [disabled]="disabled"
+    class="inline-block cursor-pointer leading-normal align-middle text-center px-5 py-3 rounded-md border-none"
+    [class]="['button', 'button-' + colorSchema]"
+    (click)="onClick.emit($event)"
+>
+    <ng-content></ng-content>
+</button>

@@ -1,5 +1,12 @@
-@import './shared/styles/global.scss';
+@import './styles/global.scss';
 
-:host {
-    font-family: 'Flexo-Medium';
+body {
+    background: #424242 url('../assets/images/body_bg.png');
+    font-family: 'Flexo-Regular', arial, sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+
+.container-bg {
+    background: #fff url('../assets/images/container_bg.png');
 }

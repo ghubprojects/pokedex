@@ -1,0 +1,23 @@
+:host {
+    user-select: none;
+}
+
+.image-link {
+    background: #f2f2f2;
+    border-radius: 5px;
+}
+.poke-info {
+    text-align: left;
+    padding-left: 14px;
+    .poke-id {
+        font-family: 'Flexo-Bold', arial, sans-serif;
+        color: #919191;
+        font-size: 80%;
+        padding-top: 2px;
+    }
+    .poke-name {
+        color: #313131;
+        font-family: 'Flexo-Demi', arial, sans-serif;
+        font-size: 145%;
+    }
+}

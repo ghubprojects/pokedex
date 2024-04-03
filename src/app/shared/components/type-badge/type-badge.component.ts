@@ -1,5 +1,5 @@
 import { TitleCasePipe } from '@angular/common';
-import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { BadgeType } from '@core/enums/enum';
 
 @Component({
@@ -19,6 +19,5 @@ export class TypeBadgeComponent implements OnInit {
     ngOnInit(): void {
         this.classList = [`bg-color-${this.type}`, `size-${this.size}`];
         if (this.bordered) this.classList.push('bordered');
-        console.log(this.classList);
     }
 }

@@ -1,0 +1,14 @@
+<div class="w-full mx-auto my-0 py-4 text-center overflow-hidden bg-white" style="max-width: 940px">
+    <ng-container *ngIf="pokemons$ | async as pokemons; else loadingTemplate">
+        <app-poke-item *ngFor="let pokemon of pokemons" [pokemon]="pokemon"></app-poke-item>
+    </ng-container>
+    <ng-template #loadingTemplate>
+        <div class="text-center">Loading...</div>
+    </ng-template>
+
+    <app-button colorSchema="lightblue" (click)="loadMore()" [disabled]="loading">
+        Load more Pokémon
+    </app-button>
+</div>
+
+<router-outlet></router-outlet>

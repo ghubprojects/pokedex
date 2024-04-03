@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Flexo-Thin';
+    src: url('../../assets/fonts/Flexo/Flexo-Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Flexo-Regular';
+    src: url('../../assets/fonts/Flexo/Flexo-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Flexo-Medium';
+    src: url('../../assets/fonts/Flexo/Flexo-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Flexo-Demi';
+    src: url('../../assets/fonts/Flexo/Flexo-Demi.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Flexo-Bold';
+    src: url('../../assets/fonts/Flexo/Flexo-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'icons';
+    src: url('../../assets/fonts/icons.woff') format('woff');
+}

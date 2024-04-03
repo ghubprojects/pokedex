@@ -1,0 +1,13 @@
+<div class="mx-1.5 mb-12 inline-block">
+    <a [routerLink]="pokemon.id.toString()" class="inline-block image-link">
+        <img [src]="pokemon.ThumbnailImage" alt="" />
+    </a>
+    <div class="poke-info">
+        <p class="poke-id"><span class="number-prefix">#</span>{{ pokemon.number }}</p>
+        <span class="pokemon-number">{{ pokemon.id | stringId }}</span>
+        <h5 class="poke-name">{{ pokemon.name }}</h5>
+        <div class="flex gap-1">
+            <app-type-badge *ngFor="let type of pokemon.type" [type]="type"></app-type-badge>
+        </div>
+    </div>
+</div>

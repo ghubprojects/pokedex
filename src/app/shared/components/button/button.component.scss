@@ -1,0 +1,451 @@
+:host {
+    display: block;
+}
+
+.button {
+    font-family: 'Flexo-Demi', sans-serif;
+}
+
+.button:disabled {
+    opacity: 0.6;
+}
+
+.button-black,
+.custom-select-wrapper .custom-select-menu label.button-black:after {
+    background-color: #313131;
+    color: #fff;
+}
+.button-black:hover,
+.custom-select-wrapper .custom-select-menu label.button-black:hover:after,
+.button-black.active,
+.custom-select-wrapper .custom-select-menu label.active.button-black:after {
+    background-color: #282828;
+}
+.category-tags-black {
+    background-color: #313131;
+    color: #fff;
+}
+.category-tags-black:before {
+    border-color: transparent #313131 transparent transparent;
+}
+.category-tags-black:hover {
+    background-color: #282828;
+}
+.category-tags-black:hover:before {
+    border-color: transparent #282828 transparent transparent;
+}
+.button-blue,
+body.custom-form-elements label.radio-as-toggle-button input + span {
+    background-color: #1b53ba;
+    color: #fff;
+}
+.button-blue:hover,
+body.custom-form-elements label.radio-as-toggle-button input + span:hover,
+.button-blue.active,
+body.custom-form-elements label.radio-as-toggle-button input + span.active {
+    background-color: #1847d7;
+}
+.category-tags-blue {
+    background-color: #1b53ba;
+    color: #fff;
+}
+.category-tags-blue:before {
+    border-color: transparent #1b53ba transparent transparent;
+}
+.category-tags-blue:hover {
+    background-color: #1847d7;
+}
+.category-tags-blue:hover:before {
+    border-color: transparent #1847d7 transparent transparent;
+}
+.button-brown {
+    background-color: #675945;
+    color: #fff;
+}
+.button-brown:hover,
+.button-brown.active {
+    background-color: #483f31;
+}
+.category-tags-brown {
+    background-color: #675945;
+    color: #fff;
+}
+.category-tags-brown:before {
+    border-color: transparent #675945 transparent transparent;
+}
+.category-tags-brown:hover {
+    background-color: #483f31;
+}
+.category-tags-brown:hover:before {
+    border-color: transparent #483f31 transparent transparent;
+}
+.button-darkgray {
+    background-color: #616161;
+    color: #fff;
+}
+.button-darkgray:hover,
+.button-darkgray.active {
+    background-color: #313131;
+}
+.category-tags-darkgray {
+    background-color: #616161;
+    color: #fff;
+}
+.category-tags-darkgray:before {
+    border-color: transparent #616161 transparent transparent;
+}
+.category-tags-darkgray:hover {
+    background-color: #313131;
+}
+.category-tags-darkgray:hover:before {
+    border-color: transparent #313131 transparent transparent;
+}
+.button-gray,
+.custom-select-wrapper .custom-select-menu label.button-gray:after,
+.simple-filters li {
+    background-color: #a4a4a4;
+    color: #fff;
+}
+.button-gray:hover,
+.custom-select-wrapper .custom-select-menu label.button-gray:hover:after,
+.simple-filters li:hover,
+.button-gray.active,
+.custom-select-wrapper .custom-select-menu label.active.button-gray:after,
+.simple-filters li.active {
+    background-color: #8b8b8b;
+}
+.category-tags-gray {
+    background-color: #a4a4a4;
+    color: #fff;
+}
+.category-tags-gray:before {
+    border-color: transparent #a4a4a4 transparent transparent;
+}
+.category-tags-gray:hover {
+    background-color: #8b8b8b;
+}
+.category-tags-gray:hover:before {
+    border-color: transparent #8b8b8b transparent transparent;
+}
+.button-green,
+.custom-select-wrapper .custom-select-menu label.button-green:after {
+    background-color: #4dad5b;
+    color: #fff;
+}
+.button-green:hover,
+.custom-select-wrapper .custom-select-menu label.button-green:hover:after,
+.button-green.active,
+.custom-select-wrapper .custom-select-menu label.active.button-green:after {
+    background-color: #369143;
+}
+.category-tags-green {
+    background-color: #4dad5b;
+    color: #fff;
+}
+.category-tags-green:before {
+    border-color: transparent #4dad5b transparent transparent;
+}
+.category-tags-green:hover {
+    background-color: #369143;
+}
+.category-tags-green:hover:before {
+    border-color: transparent #369143 transparent transparent;
+}
+.button-green-odd {
+    background-color: #3d8a48;
+    color: #fff;
+}
+.button-green-odd:hover,
+.button-green-odd.active {
+    background-color: #369143;
+}
+.category-tags-green-odd {
+    background-color: #3d8a48;
+    color: #fff;
+}
+.category-tags-green-odd:before {
+    border-color: transparent #3d8a48 transparent transparent;
+}
+.category-tags-green-odd:hover {
+    background-color: #369143;
+}
+.category-tags-green-odd:hover:before {
+    border-color: transparent #369143 transparent transparent;
+}
+.button-lightblue {
+    background-color: #30a7d7;
+    color: #fff;
+}
+.button-lightblue:hover,
+.button-lightblue.active {
+    background-color: #1b82b1;
+}
+.category-tags-lightblue {
+    background-color: #30a7d7;
+    color: #fff;
+}
+.category-tags-lightblue:before {
+    border-color: transparent #30a7d7 transparent transparent;
+}
+.category-tags-lightblue:hover {
+    background-color: #1b82b1;
+}
+.category-tags-lightblue:hover:before {
+    border-color: transparent #1b82b1 transparent transparent;
+}
+.button-lightgray {
+    background-color: #f2f2f2;
+    color: #fff;
+}
+.button-lightgray:hover,
+.button-lightgray.active {
+    background-color: #d0d0d0;
+}
+.category-tags-lightgray {
+    background-color: #f2f2f2;
+    color: #fff;
+}
+.category-tags-lightgray:before {
+    border-color: transparent #f2f2f2 transparent transparent;
+}
+.category-tags-lightgray:hover {
+    background-color: #d0d0d0;
+}
+.category-tags-lightgray:hover:before {
+    border-color: transparent #d0d0d0 transparent transparent;
+}
+.button-lightred {
+    background-color: #ff514f;
+    color: #fff;
+}
+.button-lightred:hover,
+.button-lightred.active {
+    background-color: #ff1f1c;
+}
+.category-tags-lightred {
+    background-color: #ff514f;
+    color: #fff;
+}
+.category-tags-lightred:before {
+    border-color: transparent #ff514f transparent transparent;
+}
+.category-tags-lightred:hover {
+    background-color: #ff1f1c;
+}
+.category-tags-lightred:hover:before {
+    border-color: transparent #ff1f1c transparent transparent;
+}
+.button-lightyellow {
+    background-color: #ffe84c;
+    color: #fff;
+}
+.button-lightyellow:hover,
+.button-lightyellow.active {
+    background-color: #ffe119;
+}
+.category-tags-lightyellow {
+    background-color: #ffe84c;
+    color: #fff;
+}
+.category-tags-lightyellow:before {
+    border-color: transparent #ffe84c transparent transparent;
+}
+.category-tags-lightyellow:hover {
+    background-color: #ffe119;
+}
+.category-tags-lightyellow:hover:before {
+    border-color: transparent #ffe119 transparent transparent;
+}
+.button-lightgreen {
+    background-color: #56d96a;
+    color: #fff;
+}
+.button-lightgreen:hover,
+.button-lightgreen.active {
+    background-color: #2ece47;
+}
+.category-tags-lightgreen {
+    background-color: #56d96a;
+    color: #fff;
+}
+.category-tags-lightgreen:before {
+    border-color: transparent #56d96a transparent transparent;
+}
+.category-tags-lightgreen:hover {
+    background-color: #2ece47;
+}
+.category-tags-lightgreen:hover:before {
+    border-color: transparent #2ece47 transparent transparent;
+}
+.button-lightpurple {
+    background-color: #b38aea;
+    color: #fff;
+}
+.button-lightpurple:hover,
+.button-lightpurple.active {
+    background-color: #975fe2;
+}
+.category-tags-lightpurple {
+    background-color: #b38aea;
+    color: #fff;
+}
+.category-tags-lightpurple:before {
+    border-color: transparent #b38aea transparent transparent;
+}
+.category-tags-lightpurple:hover {
+    background-color: #975fe2;
+}
+.category-tags-lightpurple:hover:before {
+    border-color: transparent #975fe2 transparent transparent;
+}
+.button-lightbrown {
+    background-color: #c7aa79;
+    color: #fff;
+}
+.button-lightbrown:hover,
+.button-lightbrown.active {
+    background-color: #b89355;
+}
+.category-tags-lightbrown {
+    background-color: #c7aa79;
+    color: #fff;
+}
+.category-tags-lightbrown:before {
+    border-color: transparent #c7aa79 transparent transparent;
+}
+.category-tags-lightbrown:hover {
+    background-color: #b89355;
+}
+.category-tags-lightbrown:hover:before {
+    border-color: transparent #b89355 transparent transparent;
+}
+.button-orange,
+body.custom-form-elements label.radio-as-toggle-button input:checked + span,
+body.custom-form-elements label.radio-as-toggle-button input + span:hover,
+.custom-select-wrapper .custom-select-menu label.button-orange:after,
+.pokedex-filter-header .filter-text-search .button-search {
+    background-color: #ee6b2f;
+    color: #fff;
+}
+.button-orange:hover,
+body.custom-form-elements label.radio-as-toggle-button input + span:hover,
+.custom-select-wrapper .custom-select-menu label.button-orange:hover:after,
+.pokedex-filter-header .filter-text-search .button-search:hover,
+.button-orange.active,
+body.custom-form-elements label.radio-as-toggle-button input:checked + span.active,
+body.custom-form-elements label.radio-as-toggle-button input + span.active:hover,
+.custom-select-wrapper .custom-select-menu label.active.button-orange:after,
+.pokedex-filter-header .filter-text-search .active.button-search {
+    background-color: #da471b;
+}
+.category-tags-orange {
+    background-color: #ee6b2f;
+    color: #fff;
+}
+.category-tags-orange:before {
+    border-color: transparent #ee6b2f transparent transparent;
+}
+.category-tags-orange:hover {
+    background-color: #da471b;
+}
+.category-tags-orange:hover:before {
+    border-color: transparent #da471b transparent transparent;
+}
+.button-pink {
+    background-color: #ff90c4;
+    color: #fff;
+}
+.button-pink:hover,
+.button-pink.active {
+    background-color: #ff2a8e;
+}
+.category-tags-pink {
+    background-color: #ff90c4;
+    color: #fff;
+}
+.category-tags-pink:before {
+    border-color: transparent #ff90c4 transparent transparent;
+}
+.category-tags-pink:hover {
+    background-color: #ff2a8e;
+}
+.category-tags-pink:hover:before {
+    border-color: transparent #ff2a8e transparent transparent;
+}
+.button-purple {
+    background-color: #855ac9;
+    color: #fff;
+}
+.button-purple:hover,
+.button-purple.active {
+    background-color: #734bb2;
+}
+.category-tags-purple {
+    background-color: #855ac9;
+    color: #fff;
+}
+.category-tags-purple:before {
+    border-color: transparent #855ac9 transparent transparent;
+}
+.category-tags-purple:hover {
+    background-color: #734bb2;
+}
+.category-tags-purple:hover:before {
+    border-color: transparent #734bb2 transparent transparent;
+}
+.button-red {
+    background-color: #e3350d;
+    color: #fff;
+}
+.button-red:hover,
+.button-red.active {
+    background-color: #b32a0a;
+}
+.category-tags-red {
+    background-color: #e3350d;
+    color: #fff;
+}
+.category-tags-red:before {
+    border-color: transparent #e3350d transparent transparent;
+}
+.category-tags-red:hover {
+    background-color: #b32a0a;
+}
+.category-tags-red:hover:before {
+    border-color: transparent #b32a0a transparent transparent;
+}
+.button-white,
+.pokedex-filter-header .filter-text-search #searchInput,
+.pokedex-filter-header .filter-text-search .twitter-typeahead {
+    background-color: #fff;
+    color: #212121;
+}
+.button-white:hover,
+.pokedex-filter-header .filter-text-search #searchInput:hover,
+.pokedex-filter-header .filter-text-search .twitter-typeahead:hover,
+.button-white.active,
+.pokedex-filter-header .filter-text-search .active#searchInput,
+.pokedex-filter-header .filter-text-search .active.twitter-typeahead {
+    background-color: #fff;
+}
+.category-tags-white {
+    background-color: #fff;
+    color: #212121;
+}
+.category-tags-white:before {
+    border-color: transparent #fff transparent transparent;
+}
+.category-tags-white:hover {
+    background-color: #fff;
+}
+.category-tags-white:hover:before {
+    border-color: transparent #fff transparent transparent;
+}
+.button-yellow {
+    background-color: #e6bc2f;
+    color: #fff;
+}
+.button-yellow:hover,
+.button-yellow.active {
+    background-color: #daa31c;
+}

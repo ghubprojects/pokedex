@@ -21,13 +21,12 @@
         "useDefineForClassFields": false,
         "lib": ["ES2022", "dom"],
         "paths": {
-            "@environment/*": ["./src/environments/*"],
             "@assets/*": ["./src/assets/*"],
-            "@modules/*": ["./src/app/modules/*"],
-            "@pages/*": ["./src/app/pages/*"],
-            "@store/*": ["./src/app/store/*"],
+            "@environment/*": ["./src/environments/*"],
             "@core/*": ["./src/app/core/*"],
-            "@shared/*": ["./src/app/shared/*"]
+            "@features/*": ["./src/app/features/*"],
+            "@shared/*": ["./src/app/shared/*"],
+            "@styles/*": ["./src/app/styles/*"]
         }
     },
     "angularCompilerOptions": {

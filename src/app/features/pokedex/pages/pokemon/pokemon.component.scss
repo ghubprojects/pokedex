@@ -1,0 +1,41 @@
+.pokemon-title {
+    font-family: 'Flexo-Medium', arial, sans-serif;
+    color: #212121;
+    font-size: 225%;
+    margin-top: 0.5em;
+    text-align: center;
+    width: 100%;
+    .pokemon-number {
+        color: #616161;
+        margin-left: 0.125em;
+    }
+}
+
+.evolution-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    background: transparent url(../../../../../assets/images/body_gray_bg.png);
+    border-radius: 5px;
+    position: relative;
+
+    .evolution-title {
+        text-align: left;
+        font-family: 'Roboto', arial, sans-serif;
+        font-weight: 500;
+        font-size: 137.5%;
+        color: #fff;
+        padding: 1em 0 1em 1em;
+        text-transform: none;
+    }
+
+    .arrow-right::after {
+        font-family: 'icons';
+        content: '\f105';
+        font-size: 300%;
+        color: #fff;
+
+        position: absolute;
+        top: 96px;
+        margin-left: 48px;
+    }
+}
